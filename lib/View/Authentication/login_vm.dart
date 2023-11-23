@@ -3,7 +3,6 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:google_sign_in/google_sign_in.dart';
 import 'package:login_socialaccounts/Model/user_model.dart';
-import 'package:login_socialaccounts/View/Facebook/facebook_view.dart';
 import 'package:login_socialaccounts/View/Home/home_view.dart';
 import 'package:flutter_facebook_auth/flutter_facebook_auth.dart';
 
@@ -69,45 +68,23 @@ class LoginVm with ChangeNotifier {
         );
       }
     } on FirebaseAuthException catch (e) {
-      // Handle Firebase authentication exceptions
       print('Firebase Auth Exception: ${e.message}');
       throw e; // rethrow the exception
     } catch (e) {
-      // Handle other exceptions
       print('Other Exception: $e');
-      throw e; // rethrow the exception
+      throw e;
     }
   }
 
-  // Future<UserCredential> signInWithFacebook() async {
-  //   // Trigger the sign-in flow
-  //   final LoginResult loginResult = await FacebookAuth.instance.login();
-  //
-  //   // Create a credential from the access token
-  //   final OAuthCredential facebookAuthCredential = FacebookAuthProvider.credential(loginResult.accessToken!.token);
-  //
-  //   // Once signed in, return the UserCredential
-  //   return FirebaseAuth.instance.signInWithCredential(facebookAuthCredential);
-  // }
   }
 
   Future<UserCredential> signInWithGoogle() async {
-    // Trigger the authentication flow
     final GoogleSignInAccount? googleUser = await GoogleSignIn().signIn();
-
-    // Obtain the auth details from the request
     final GoogleSignInAuthentication? googleAuth = await googleUser?.authentication;
-
-    // Create a new credential
     final credential = GoogleAuthProvider.credential(
       accessToken: googleAuth?.accessToken,
       idToken: googleAuth?.idToken,
     );
-
-    // Once signed in, return the UserCredential
-
-
-
 
     return await FirebaseAuth.instance.signInWithCredential(credential);
 

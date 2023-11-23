@@ -28,13 +28,5 @@ class HomeVm extends ChangeNotifier {
     notifyListeners();
   }
 
-  signOut() async {
-    await FirebaseAuth.instance.signOut().whenComplete(() {
-      Navigator.pushReplacement(
-          context, MaterialPageRoute(builder: (context) =>  LoginView()));
-    });
-
-  }
-
 
 }

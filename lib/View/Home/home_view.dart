@@ -20,10 +20,6 @@ class HomeView extends StatelessWidget {
             body: Column(
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
-                // HeaderItem(
-                //   icon: AppImages.imgLogin,
-                //   islamic: AppImages.islamic1,
-                // ),
                 SizedBox(
                   width: deviceWidth,
                   child: Container(
@@ -31,7 +27,7 @@ class HomeView extends StatelessWidget {
                     width: deviceWidth*0.8,
                     child: Center(
                       //
-                      child: Text( 'Home ' '!', style: TextStyle(
+                      child: Text( 'Google Login' '!', style: TextStyle(
                           fontSize:25,
                           color: Colors.black,
                           fontWeight: FontWeight.bold),
@@ -80,51 +76,6 @@ class HomeView extends StatelessWidget {
                     ),
                   ),
                 ),
-                SizedBox(
-                  height: deviceHeight * 0.01,
-                ),
-
-
-
-                // Card(
-                //   elevation: 0,
-                //   child: GestureDetector(
-                //     onTap: () => vm.signOut(),
-                //     child: ClipRRect(
-                //       borderRadius: BorderRadius.circular(5),
-                //       child: Container(
-                //         height: 50,
-                //         width: deviceWidth*0.9,
-                //         decoration: BoxDecoration(
-                //             color: AppColors.blueColor2,
-                //             border: Border.all(color: AppColors.lightGreyColor, width: 1),
-                //             borderRadius: BorderRadius.circular(5)
-                //         ),
-                //         child: Row(
-                //           mainAxisAlignment: MainAxisAlignment.start,
-                //           children: [
-                //             Container(
-                //               width: deviceWidth*0.15,
-                //               child: Center(
-                //                   child: Icon(Icons.logout, size: 25,color: Colors.white,)
-                //               ),
-                //             ),
-                //             Container(
-                //                 width: deviceWidth*0.7,
-                //
-                //                 child: Center(child: Text('Logout', style: TextStyle(color: Colors.white, fontWeight: FontWeight.w600),)))
-                //           ],
-                //         ),
-                //       ),
-                //     ),
-                //   ),
-                // ),
-                SizedBox(
-                  height: deviceHeight * 0.04,
-                ),
-
-
-
               ],
             ),
           );
