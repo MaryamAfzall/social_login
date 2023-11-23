@@ -1,0 +1,206 @@
+{
+  "project_info": {
+    "project_number": "545736557291",
+    "project_id": "stc-health",
+    "storage_bucket": "stc-health.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:545736557291:android:82e076737bd2128bb3f4ae",
+        "android_client_info": {
+          "package_name": "com.example.login_socialaccounts"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "545736557291-raku93gmji9e3i5lt84nj7lj1u5nndbb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCkZ6XP8RMkx8DI0WMyHEyaDLrg6LkGOwk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "545736557291-raku93gmji9e3i5lt84nj7lj1u5nndbb.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "545736557291-cclun409efpfs6fl4k0p3lq956onf8t3.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.stcHealth"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:545736557291:android:ac399861e9603fceb3f4ae",
+        "android_client_info": {
+          "package_name": "com.example.social_login"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "545736557291-raku93gmji9e3i5lt84nj7lj1u5nndbb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCkZ6XP8RMkx8DI0WMyHEyaDLrg6LkGOwk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "545736557291-raku93gmji9e3i5lt84nj7lj1u5nndbb.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "545736557291-cclun409efpfs6fl4k0p3lq956onf8t3.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.stcHealth"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:545736557291:android:6dafee93aade3854b3f4ae",
+        "android_client_info": {
+          "package_name": "com.example.social_loginn"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "545736557291-0oms7im1njqa5ajqbob6edtdvivbelrs.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.social_loginn",
+            "certificate_hash": "00a5e18f4a6d94b3ca3a8c26bdf10a2abe68b228"
+          }
+        },
+        {
+          "client_id": "545736557291-raku93gmji9e3i5lt84nj7lj1u5nndbb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCkZ6XP8RMkx8DI0WMyHEyaDLrg6LkGOwk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "545736557291-raku93gmji9e3i5lt84nj7lj1u5nndbb.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "545736557291-cclun409efpfs6fl4k0p3lq956onf8t3.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.stcHealth"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:545736557291:android:93944ed822d803d4b3f4ae",
+        "android_client_info": {
+          "package_name": "com.example.stc_health"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "545736557291-raku93gmji9e3i5lt84nj7lj1u5nndbb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCkZ6XP8RMkx8DI0WMyHEyaDLrg6LkGOwk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "545736557291-raku93gmji9e3i5lt84nj7lj1u5nndbb.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "545736557291-cclun409efpfs6fl4k0p3lq956onf8t3.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.stcHealth"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:545736557291:android:77240b06c0685d6db3f4ae",
+        "android_client_info": {
+          "package_name": "com.firebase.cli"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "545736557291-rfjjllec037ic5no63ogrlrlgqcq7r4i.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.firebase.cli",
+            "certificate_hash": "00a5e18f4a6d94b3ca3a8c26bdf10a2abe68b228"
+          }
+        },
+        {
+          "client_id": "545736557291-raku93gmji9e3i5lt84nj7lj1u5nndbb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCkZ6XP8RMkx8DI0WMyHEyaDLrg6LkGOwk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "545736557291-raku93gmji9e3i5lt84nj7lj1u5nndbb.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "545736557291-cclun409efpfs6fl4k0p3lq956onf8t3.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.stcHealth"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
